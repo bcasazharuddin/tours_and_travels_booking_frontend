@@ -1,0 +1,34 @@
+
+  .services__subtitle{
+      font-size: 2.2rem;
+      font-weight: 500;
+      color: #ee6e6e;
+      font-family: var(--subtitle-font-name)
+  }
+  
+  .services__title{
+      font-size: 2.5rem;
+      font-weight: 500;
+  }
+  
+
+  
+  
+  @media  only screen and (max-width:992px) {
+      .services__title {
+          font-size: 2rem;
+      }
+  }
+  
+  @media  only screen and (max-width:576) {
+      .services__title {
+          font-size: 1.5rem;
+      }
+  
+  }
+  
+  @media  only screen and (max-width:768px) {
+      .services__subtitle{
+          font-size: 1.3rem;
+      }
+  }

@@ -40,6 +40,12 @@
     cursor: pointer;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 
 @media only screen and (max-width:992px) {
     .search__bar{
@@ -54,6 +60,12 @@
     .search__bar form .form__group{
         width: 48%;
     }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 }
 
 @media only screen and (max-width:576px) {
@@ -73,4 +85,10 @@
   .form__group h6{
     font-size: 1rem;
   }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 }
